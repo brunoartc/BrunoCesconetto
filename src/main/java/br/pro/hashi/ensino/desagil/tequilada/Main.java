@@ -4,6 +4,15 @@ import java.io.*;
 
 public class Main {
 	public static void main(String[] args){
+		
+		
+		Engine  vrumVrum = new Engine();
+        vrumVrum.gen();
+       
+        System.out.println("Game Over");
+        
+        
+        /*
 		System.out.println("Projeto 1");
 		
 		String thisLine;
@@ -24,6 +33,6 @@ public class Main {
 		     catch (IOException e) {
 		       System.err.println("Error: " + e);
 		     }
-		
+	*/	
 	}
 }
